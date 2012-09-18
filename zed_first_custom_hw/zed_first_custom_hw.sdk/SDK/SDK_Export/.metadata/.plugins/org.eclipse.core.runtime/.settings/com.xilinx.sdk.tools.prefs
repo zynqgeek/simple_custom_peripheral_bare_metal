@@ -1,0 +1,17 @@
+#Tue Sep 18 01:22:59 EDT 2012
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.rodata1=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:Stack-size=1024
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.sdata2=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.text=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.rodata=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.fixup=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.sbss2=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.data1=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.bss=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.sdata=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.sbss=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:Heap=ps7_ram_0_S_AXI_BASEADDR
+eclipse.preferences.version=1
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:.data=ps7_ram_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.hello_world_0\:Stack=ps7_ram_0_S_AXI_BASEADDR

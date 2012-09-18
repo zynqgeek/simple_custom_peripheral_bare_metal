@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project hello_world_0 ****
+
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o"src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+' '
+Building target: hello_world_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o"hello_world_0.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world_0.elf
+' '
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world_0.elf  |tee "hello_world_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79520	   2264	   6312	  88096	  15820	hello_world_0.elf
+Finished building: hello_world_0.elf.size
+' '

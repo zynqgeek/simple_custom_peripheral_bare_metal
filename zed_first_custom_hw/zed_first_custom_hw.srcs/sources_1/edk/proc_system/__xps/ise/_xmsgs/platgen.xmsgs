@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE: <arg fmt="%s" index="2">axi4lite_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 39</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_gpio</arg>, INSTANCE: <arg fmt="%s" index="2">LEDs_4Bits</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 47</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_gpio</arg>, INSTANCE: <arg fmt="%s" index="2">GPIO_SW</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 61</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE: <arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 75</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE: <arg fmt="%s" index="2">axi4lite_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 39</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_gpio</arg>, INSTANCE: <arg fmt="%s" index="2">LEDs_4Bits</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 47</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_gpio</arg>, INSTANCE: <arg fmt="%s" index="2">GPIO_SW</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 61</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE: <arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 75</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi4lite_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_BASEFAMILY</arg> value to <arg fmt="%s" index="6">zynq</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 80</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_F2P_INTR_INPUTS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_01_a\data\processing_system7_v2_1_0.mpd line 314</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="1432" delta="old" >Frequency for Top-Level Input Clock &apos;<arg fmt="%s" index="1">processing_system7_0_PS_CLK</arg>&apos; is not specified. Clock DRCs will not be performed for IPs connected to that clock port, unless they are connected through the clock generator IP. 
+
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">FCLK_RESET0_N</arg>, CONNECTOR: <arg fmt="%s" index="2">processing_system7_0_FCLK_RESET0_N</arg> - floating connection - <arg fmt="%s" index="3">C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\proc_system.mhs line 159</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi4lite_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_RANGE_CHECK</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 148</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_FCLK_CLK1_BUF</arg> value to <arg fmt="%s" index="6">FALSE</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_01_a\data\processing_system7_v2_1_0.mpd line 345</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_FCLK_CLK2_BUF</arg> value to <arg fmt="%s" index="6">FALSE</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_01_a\data\processing_system7_v2_1_0.mpd line 346</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_FCLK_CLK3_BUF</arg> value to <arg fmt="%s" index="6">FALSE</arg> - <arg fmt="%s" index="7">C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_01_a\data\processing_system7_v2_1_0.mpd line 347</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4211" delta="old" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+</msg>
+
+<msg type="info" file="EDK" num="3509" delta="old" >NCF files should not be modified as they will be regenerated.
+If any constraint needs to be overridden, this should be done by modifying the data/<arg fmt="%s" index="1">proc_system</arg>.ucf file.
+</msg>
+
+</messages>
+

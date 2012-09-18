@@ -1,0 +1,1614 @@
+(edif proc_system_stub
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2012 9 18 1 27 29)
+      (program "Xilinx ngc2edif" (version "P.28xd"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure proc_system_stub.ngc proc_system_stub.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library proc_system_stub_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell proc_system
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port processing_system7_0_PS_SRSTB
+              (direction INPUT)
+            )
+            (port processing_system7_0_PS_CLK
+              (direction INPUT)
+            )
+            (port processing_system7_0_PS_PORB
+              (direction INPUT)
+            )
+            (port GPIO_SW_TRI_IO
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_Clk
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_Clk_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CKE
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_RAS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CAS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_WEB_pin
+              (direction OUTPUT)
+            )
+            (port processing_system7_0_DDR_ODT
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_DRSTB
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_VRN
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_VRP
+              (direction INOUT)
+            )
+            (port (array (rename LEDs_4Bits_TRI_IO "LEDs_4Bits_TRI_IO<3:0>") 4)
+              (direction OUTPUT))
+            (port (array (rename processing_system7_0_MIO "processing_system7_0_MIO<53:0>") 54)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_BankAddr "processing_system7_0_DDR_BankAddr<2:0>") 3)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_Addr "processing_system7_0_DDR_Addr<14:0>") 15)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQ "processing_system7_0_DDR_DQ<31:0>") 32)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DM "processing_system7_0_DDR_DM<3:0>") 4)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQS "processing_system7_0_DDR_DQS<3:0>") 4)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQS_n "processing_system7_0_DDR_DQS_n<3:0>") 4)
+              (direction INOUT))
+          )
+      )
+    )
+    (cell proc_system_stub
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port processing_system7_0_PS_SRSTB
+              (direction INPUT)
+            )
+            (port processing_system7_0_PS_CLK
+              (direction INPUT)
+            )
+            (port processing_system7_0_PS_PORB
+              (direction INPUT)
+            )
+            (port GPIO_SW_TRI_IO
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_Clk
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_Clk_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CKE
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_RAS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_CAS_n
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_WEB_pin
+              (direction OUTPUT)
+            )
+            (port processing_system7_0_DDR_ODT
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_DRSTB
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_VRN
+              (direction INOUT)
+            )
+            (port processing_system7_0_DDR_VRP
+              (direction INOUT)
+            )
+            (port (array (rename LEDs_4Bits_TRI_IO "LEDs_4Bits_TRI_IO<3:0>") 4)
+              (direction OUTPUT))
+            (port (array (rename processing_system7_0_MIO "processing_system7_0_MIO<53:0>") 54)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_BankAddr "processing_system7_0_DDR_BankAddr<2:0>") 3)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_Addr "processing_system7_0_DDR_Addr<14:0>") 15)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQ "processing_system7_0_DDR_DQ<31:0>") 32)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DM "processing_system7_0_DDR_DM<3:0>") 4)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQS "processing_system7_0_DDR_DQS<3:0>") 4)
+              (direction INOUT))
+            (port (array (rename processing_system7_0_DDR_DQS_n "processing_system7_0_DDR_DQS_n<3:0>") 4)
+              (direction INOUT))
+            (designator "xc7z020clg484-1")
+            (property TYPE (string "proc_system_stub") (owner "Xilinx"))
+            (property BUS_INFO (string "4:OUTPUT:LEDs_4Bits_TRI_IO<3:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "54:INOUT:processing_system7_0_MIO<53:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "3:INOUT:processing_system7_0_DDR_BankAddr<2:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "15:INOUT:processing_system7_0_DDR_Addr<14:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "32:INOUT:processing_system7_0_DDR_DQ<31:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DM<3:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DQS<3:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DQS_n<3:0>") (owner "Xilinx"))
+            (property SHREG_MIN_SIZE (string "-1") (owner "Xilinx"))
+            (property X_CORE_INFO (string "processing_system7_v4_01_a") (owner "Xilinx"))
+            (property SHREG_EXTRACT_NGC (string "Yes") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "proc_system_stub_proc_system_stub") (owner "Xilinx"))
+          )
+          (contents
+            (instance (rename processing_system7_0_PS_SRSTB_IBUF_renamed_0 "processing_system7_0_PS_SRSTB_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename processing_system7_0_PS_CLK_IBUF_renamed_1 "processing_system7_0_PS_CLK_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename processing_system7_0_PS_PORB_IBUF_renamed_2 "processing_system7_0_PS_PORB_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename LEDs_4Bits_TRI_IO_3_OBUF_renamed_3 "LEDs_4Bits_TRI_IO_3_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename LEDs_4Bits_TRI_IO_2_OBUF_renamed_4 "LEDs_4Bits_TRI_IO_2_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename LEDs_4Bits_TRI_IO_1_OBUF_renamed_5 "LEDs_4Bits_TRI_IO_1_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename LEDs_4Bits_TRI_IO_0_OBUF_renamed_6 "LEDs_4Bits_TRI_IO_0_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance proc_system_i
+              (viewRef view_1 (cellRef proc_system (libraryRef proc_system_stub_lib)))
+              (property BUS_INFO (string "4:OUTPUT:LEDs_4Bits_TRI_IO<3:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "54:INOUT:processing_system7_0_MIO<53:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "3:INOUT:processing_system7_0_DDR_BankAddr<2:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "15:INOUT:processing_system7_0_DDR_Addr<14:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "32:INOUT:processing_system7_0_DDR_DQ<31:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DM<3:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DQS<3:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "4:INOUT:processing_system7_0_DDR_DQS_n<3:0>") (owner "Xilinx"))
+            )
+            (net processing_system7_0_PS_SRSTB_IBUF
+              (joined
+                (portRef O (instanceRef processing_system7_0_PS_SRSTB_IBUF_renamed_0))
+                (portRef processing_system7_0_PS_SRSTB (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_PS_CLK_IBUF
+              (joined
+                (portRef O (instanceRef processing_system7_0_PS_CLK_IBUF_renamed_1))
+                (portRef processing_system7_0_PS_CLK (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_PS_PORB_IBUF
+              (joined
+                (portRef O (instanceRef processing_system7_0_PS_PORB_IBUF_renamed_2))
+                (portRef processing_system7_0_PS_PORB (instanceRef proc_system_i))
+              )
+            )
+            (net LEDs_4Bits_TRI_IO_3_OBUF
+              (joined
+                (portRef I (instanceRef LEDs_4Bits_TRI_IO_3_OBUF_renamed_3))
+                (portRef (member LEDs_4Bits_TRI_IO 0) (instanceRef proc_system_i))
+              )
+            )
+            (net LEDs_4Bits_TRI_IO_2_OBUF
+              (joined
+                (portRef I (instanceRef LEDs_4Bits_TRI_IO_2_OBUF_renamed_4))
+                (portRef (member LEDs_4Bits_TRI_IO 1) (instanceRef proc_system_i))
+              )
+            )
+            (net LEDs_4Bits_TRI_IO_1_OBUF
+              (joined
+                (portRef I (instanceRef LEDs_4Bits_TRI_IO_1_OBUF_renamed_5))
+                (portRef (member LEDs_4Bits_TRI_IO 2) (instanceRef proc_system_i))
+              )
+            )
+            (net LEDs_4Bits_TRI_IO_0_OBUF
+              (joined
+                (portRef I (instanceRef LEDs_4Bits_TRI_IO_0_OBUF_renamed_6))
+                (portRef (member LEDs_4Bits_TRI_IO 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_53_ "processing_system7_0_MIO<53>")
+              (joined
+                (portRef (member processing_system7_0_MIO 0))
+                (portRef (member processing_system7_0_MIO 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_52_ "processing_system7_0_MIO<52>")
+              (joined
+                (portRef (member processing_system7_0_MIO 1))
+                (portRef (member processing_system7_0_MIO 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_51_ "processing_system7_0_MIO<51>")
+              (joined
+                (portRef (member processing_system7_0_MIO 2))
+                (portRef (member processing_system7_0_MIO 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_50_ "processing_system7_0_MIO<50>")
+              (joined
+                (portRef (member processing_system7_0_MIO 3))
+                (portRef (member processing_system7_0_MIO 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_49_ "processing_system7_0_MIO<49>")
+              (joined
+                (portRef (member processing_system7_0_MIO 4))
+                (portRef (member processing_system7_0_MIO 4) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_48_ "processing_system7_0_MIO<48>")
+              (joined
+                (portRef (member processing_system7_0_MIO 5))
+                (portRef (member processing_system7_0_MIO 5) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_47_ "processing_system7_0_MIO<47>")
+              (joined
+                (portRef (member processing_system7_0_MIO 6))
+                (portRef (member processing_system7_0_MIO 6) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_46_ "processing_system7_0_MIO<46>")
+              (joined
+                (portRef (member processing_system7_0_MIO 7))
+                (portRef (member processing_system7_0_MIO 7) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_45_ "processing_system7_0_MIO<45>")
+              (joined
+                (portRef (member processing_system7_0_MIO 8))
+                (portRef (member processing_system7_0_MIO 8) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_44_ "processing_system7_0_MIO<44>")
+              (joined
+                (portRef (member processing_system7_0_MIO 9))
+                (portRef (member processing_system7_0_MIO 9) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_43_ "processing_system7_0_MIO<43>")
+              (joined
+                (portRef (member processing_system7_0_MIO 10))
+                (portRef (member processing_system7_0_MIO 10) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_42_ "processing_system7_0_MIO<42>")
+              (joined
+                (portRef (member processing_system7_0_MIO 11))
+                (portRef (member processing_system7_0_MIO 11) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_41_ "processing_system7_0_MIO<41>")
+              (joined
+                (portRef (member processing_system7_0_MIO 12))
+                (portRef (member processing_system7_0_MIO 12) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_40_ "processing_system7_0_MIO<40>")
+              (joined
+                (portRef (member processing_system7_0_MIO 13))
+                (portRef (member processing_system7_0_MIO 13) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_39_ "processing_system7_0_MIO<39>")
+              (joined
+                (portRef (member processing_system7_0_MIO 14))
+                (portRef (member processing_system7_0_MIO 14) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_38_ "processing_system7_0_MIO<38>")
+              (joined
+                (portRef (member processing_system7_0_MIO 15))
+                (portRef (member processing_system7_0_MIO 15) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_37_ "processing_system7_0_MIO<37>")
+              (joined
+                (portRef (member processing_system7_0_MIO 16))
+                (portRef (member processing_system7_0_MIO 16) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_36_ "processing_system7_0_MIO<36>")
+              (joined
+                (portRef (member processing_system7_0_MIO 17))
+                (portRef (member processing_system7_0_MIO 17) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_35_ "processing_system7_0_MIO<35>")
+              (joined
+                (portRef (member processing_system7_0_MIO 18))
+                (portRef (member processing_system7_0_MIO 18) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_34_ "processing_system7_0_MIO<34>")
+              (joined
+                (portRef (member processing_system7_0_MIO 19))
+                (portRef (member processing_system7_0_MIO 19) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_33_ "processing_system7_0_MIO<33>")
+              (joined
+                (portRef (member processing_system7_0_MIO 20))
+                (portRef (member processing_system7_0_MIO 20) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_32_ "processing_system7_0_MIO<32>")
+              (joined
+                (portRef (member processing_system7_0_MIO 21))
+                (portRef (member processing_system7_0_MIO 21) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_31_ "processing_system7_0_MIO<31>")
+              (joined
+                (portRef (member processing_system7_0_MIO 22))
+                (portRef (member processing_system7_0_MIO 22) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_30_ "processing_system7_0_MIO<30>")
+              (joined
+                (portRef (member processing_system7_0_MIO 23))
+                (portRef (member processing_system7_0_MIO 23) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_29_ "processing_system7_0_MIO<29>")
+              (joined
+                (portRef (member processing_system7_0_MIO 24))
+                (portRef (member processing_system7_0_MIO 24) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_28_ "processing_system7_0_MIO<28>")
+              (joined
+                (portRef (member processing_system7_0_MIO 25))
+                (portRef (member processing_system7_0_MIO 25) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_27_ "processing_system7_0_MIO<27>")
+              (joined
+                (portRef (member processing_system7_0_MIO 26))
+                (portRef (member processing_system7_0_MIO 26) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_26_ "processing_system7_0_MIO<26>")
+              (joined
+                (portRef (member processing_system7_0_MIO 27))
+                (portRef (member processing_system7_0_MIO 27) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_25_ "processing_system7_0_MIO<25>")
+              (joined
+                (portRef (member processing_system7_0_MIO 28))
+                (portRef (member processing_system7_0_MIO 28) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_24_ "processing_system7_0_MIO<24>")
+              (joined
+                (portRef (member processing_system7_0_MIO 29))
+                (portRef (member processing_system7_0_MIO 29) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_23_ "processing_system7_0_MIO<23>")
+              (joined
+                (portRef (member processing_system7_0_MIO 30))
+                (portRef (member processing_system7_0_MIO 30) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_22_ "processing_system7_0_MIO<22>")
+              (joined
+                (portRef (member processing_system7_0_MIO 31))
+                (portRef (member processing_system7_0_MIO 31) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_21_ "processing_system7_0_MIO<21>")
+              (joined
+                (portRef (member processing_system7_0_MIO 32))
+                (portRef (member processing_system7_0_MIO 32) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_20_ "processing_system7_0_MIO<20>")
+              (joined
+                (portRef (member processing_system7_0_MIO 33))
+                (portRef (member processing_system7_0_MIO 33) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_19_ "processing_system7_0_MIO<19>")
+              (joined
+                (portRef (member processing_system7_0_MIO 34))
+                (portRef (member processing_system7_0_MIO 34) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_18_ "processing_system7_0_MIO<18>")
+              (joined
+                (portRef (member processing_system7_0_MIO 35))
+                (portRef (member processing_system7_0_MIO 35) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_17_ "processing_system7_0_MIO<17>")
+              (joined
+                (portRef (member processing_system7_0_MIO 36))
+                (portRef (member processing_system7_0_MIO 36) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_16_ "processing_system7_0_MIO<16>")
+              (joined
+                (portRef (member processing_system7_0_MIO 37))
+                (portRef (member processing_system7_0_MIO 37) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_15_ "processing_system7_0_MIO<15>")
+              (joined
+                (portRef (member processing_system7_0_MIO 38))
+                (portRef (member processing_system7_0_MIO 38) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_14_ "processing_system7_0_MIO<14>")
+              (joined
+                (portRef (member processing_system7_0_MIO 39))
+                (portRef (member processing_system7_0_MIO 39) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_13_ "processing_system7_0_MIO<13>")
+              (joined
+                (portRef (member processing_system7_0_MIO 40))
+                (portRef (member processing_system7_0_MIO 40) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_12_ "processing_system7_0_MIO<12>")
+              (joined
+                (portRef (member processing_system7_0_MIO 41))
+                (portRef (member processing_system7_0_MIO 41) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_11_ "processing_system7_0_MIO<11>")
+              (joined
+                (portRef (member processing_system7_0_MIO 42))
+                (portRef (member processing_system7_0_MIO 42) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_10_ "processing_system7_0_MIO<10>")
+              (joined
+                (portRef (member processing_system7_0_MIO 43))
+                (portRef (member processing_system7_0_MIO 43) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_9_ "processing_system7_0_MIO<9>")
+              (joined
+                (portRef (member processing_system7_0_MIO 44))
+                (portRef (member processing_system7_0_MIO 44) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_8_ "processing_system7_0_MIO<8>")
+              (joined
+                (portRef (member processing_system7_0_MIO 45))
+                (portRef (member processing_system7_0_MIO 45) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_7_ "processing_system7_0_MIO<7>")
+              (joined
+                (portRef (member processing_system7_0_MIO 46))
+                (portRef (member processing_system7_0_MIO 46) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_6_ "processing_system7_0_MIO<6>")
+              (joined
+                (portRef (member processing_system7_0_MIO 47))
+                (portRef (member processing_system7_0_MIO 47) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_5_ "processing_system7_0_MIO<5>")
+              (joined
+                (portRef (member processing_system7_0_MIO 48))
+                (portRef (member processing_system7_0_MIO 48) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_4_ "processing_system7_0_MIO<4>")
+              (joined
+                (portRef (member processing_system7_0_MIO 49))
+                (portRef (member processing_system7_0_MIO 49) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_3_ "processing_system7_0_MIO<3>")
+              (joined
+                (portRef (member processing_system7_0_MIO 50))
+                (portRef (member processing_system7_0_MIO 50) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_2_ "processing_system7_0_MIO<2>")
+              (joined
+                (portRef (member processing_system7_0_MIO 51))
+                (portRef (member processing_system7_0_MIO 51) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_1_ "processing_system7_0_MIO<1>")
+              (joined
+                (portRef (member processing_system7_0_MIO 52))
+                (portRef (member processing_system7_0_MIO 52) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_MIO_0_ "processing_system7_0_MIO<0>")
+              (joined
+                (portRef (member processing_system7_0_MIO 53))
+                (portRef (member processing_system7_0_MIO 53) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_BankAddr_2_ "processing_system7_0_DDR_BankAddr<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_BankAddr 0))
+                (portRef (member processing_system7_0_DDR_BankAddr 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_BankAddr_1_ "processing_system7_0_DDR_BankAddr<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_BankAddr 1))
+                (portRef (member processing_system7_0_DDR_BankAddr 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_BankAddr_0_ "processing_system7_0_DDR_BankAddr<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_BankAddr 2))
+                (portRef (member processing_system7_0_DDR_BankAddr 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_14_ "processing_system7_0_DDR_Addr<14>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 0))
+                (portRef (member processing_system7_0_DDR_Addr 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_13_ "processing_system7_0_DDR_Addr<13>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 1))
+                (portRef (member processing_system7_0_DDR_Addr 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_12_ "processing_system7_0_DDR_Addr<12>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 2))
+                (portRef (member processing_system7_0_DDR_Addr 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_11_ "processing_system7_0_DDR_Addr<11>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 3))
+                (portRef (member processing_system7_0_DDR_Addr 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_10_ "processing_system7_0_DDR_Addr<10>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 4))
+                (portRef (member processing_system7_0_DDR_Addr 4) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_9_ "processing_system7_0_DDR_Addr<9>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 5))
+                (portRef (member processing_system7_0_DDR_Addr 5) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_8_ "processing_system7_0_DDR_Addr<8>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 6))
+                (portRef (member processing_system7_0_DDR_Addr 6) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_7_ "processing_system7_0_DDR_Addr<7>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 7))
+                (portRef (member processing_system7_0_DDR_Addr 7) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_6_ "processing_system7_0_DDR_Addr<6>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 8))
+                (portRef (member processing_system7_0_DDR_Addr 8) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_5_ "processing_system7_0_DDR_Addr<5>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 9))
+                (portRef (member processing_system7_0_DDR_Addr 9) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_4_ "processing_system7_0_DDR_Addr<4>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 10))
+                (portRef (member processing_system7_0_DDR_Addr 10) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_3_ "processing_system7_0_DDR_Addr<3>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 11))
+                (portRef (member processing_system7_0_DDR_Addr 11) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_2_ "processing_system7_0_DDR_Addr<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 12))
+                (portRef (member processing_system7_0_DDR_Addr 12) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_1_ "processing_system7_0_DDR_Addr<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 13))
+                (portRef (member processing_system7_0_DDR_Addr 13) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_Addr_0_ "processing_system7_0_DDR_Addr<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_Addr 14))
+                (portRef (member processing_system7_0_DDR_Addr 14) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_31_ "processing_system7_0_DDR_DQ<31>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 0))
+                (portRef (member processing_system7_0_DDR_DQ 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_30_ "processing_system7_0_DDR_DQ<30>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 1))
+                (portRef (member processing_system7_0_DDR_DQ 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_29_ "processing_system7_0_DDR_DQ<29>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 2))
+                (portRef (member processing_system7_0_DDR_DQ 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_28_ "processing_system7_0_DDR_DQ<28>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 3))
+                (portRef (member processing_system7_0_DDR_DQ 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_27_ "processing_system7_0_DDR_DQ<27>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 4))
+                (portRef (member processing_system7_0_DDR_DQ 4) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_26_ "processing_system7_0_DDR_DQ<26>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 5))
+                (portRef (member processing_system7_0_DDR_DQ 5) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_25_ "processing_system7_0_DDR_DQ<25>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 6))
+                (portRef (member processing_system7_0_DDR_DQ 6) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_24_ "processing_system7_0_DDR_DQ<24>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 7))
+                (portRef (member processing_system7_0_DDR_DQ 7) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_23_ "processing_system7_0_DDR_DQ<23>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 8))
+                (portRef (member processing_system7_0_DDR_DQ 8) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_22_ "processing_system7_0_DDR_DQ<22>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 9))
+                (portRef (member processing_system7_0_DDR_DQ 9) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_21_ "processing_system7_0_DDR_DQ<21>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 10))
+                (portRef (member processing_system7_0_DDR_DQ 10) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_20_ "processing_system7_0_DDR_DQ<20>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 11))
+                (portRef (member processing_system7_0_DDR_DQ 11) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_19_ "processing_system7_0_DDR_DQ<19>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 12))
+                (portRef (member processing_system7_0_DDR_DQ 12) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_18_ "processing_system7_0_DDR_DQ<18>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 13))
+                (portRef (member processing_system7_0_DDR_DQ 13) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_17_ "processing_system7_0_DDR_DQ<17>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 14))
+                (portRef (member processing_system7_0_DDR_DQ 14) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_16_ "processing_system7_0_DDR_DQ<16>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 15))
+                (portRef (member processing_system7_0_DDR_DQ 15) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_15_ "processing_system7_0_DDR_DQ<15>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 16))
+                (portRef (member processing_system7_0_DDR_DQ 16) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_14_ "processing_system7_0_DDR_DQ<14>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 17))
+                (portRef (member processing_system7_0_DDR_DQ 17) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_13_ "processing_system7_0_DDR_DQ<13>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 18))
+                (portRef (member processing_system7_0_DDR_DQ 18) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_12_ "processing_system7_0_DDR_DQ<12>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 19))
+                (portRef (member processing_system7_0_DDR_DQ 19) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_11_ "processing_system7_0_DDR_DQ<11>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 20))
+                (portRef (member processing_system7_0_DDR_DQ 20) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_10_ "processing_system7_0_DDR_DQ<10>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 21))
+                (portRef (member processing_system7_0_DDR_DQ 21) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_9_ "processing_system7_0_DDR_DQ<9>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 22))
+                (portRef (member processing_system7_0_DDR_DQ 22) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_8_ "processing_system7_0_DDR_DQ<8>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 23))
+                (portRef (member processing_system7_0_DDR_DQ 23) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_7_ "processing_system7_0_DDR_DQ<7>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 24))
+                (portRef (member processing_system7_0_DDR_DQ 24) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_6_ "processing_system7_0_DDR_DQ<6>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 25))
+                (portRef (member processing_system7_0_DDR_DQ 25) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_5_ "processing_system7_0_DDR_DQ<5>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 26))
+                (portRef (member processing_system7_0_DDR_DQ 26) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_4_ "processing_system7_0_DDR_DQ<4>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 27))
+                (portRef (member processing_system7_0_DDR_DQ 27) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_3_ "processing_system7_0_DDR_DQ<3>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 28))
+                (portRef (member processing_system7_0_DDR_DQ 28) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_2_ "processing_system7_0_DDR_DQ<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 29))
+                (portRef (member processing_system7_0_DDR_DQ 29) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_1_ "processing_system7_0_DDR_DQ<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 30))
+                (portRef (member processing_system7_0_DDR_DQ 30) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQ_0_ "processing_system7_0_DDR_DQ<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQ 31))
+                (portRef (member processing_system7_0_DDR_DQ 31) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DM_3_ "processing_system7_0_DDR_DM<3>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DM 0))
+                (portRef (member processing_system7_0_DDR_DM 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DM_2_ "processing_system7_0_DDR_DM<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DM 1))
+                (portRef (member processing_system7_0_DDR_DM 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DM_1_ "processing_system7_0_DDR_DM<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DM 2))
+                (portRef (member processing_system7_0_DDR_DM 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DM_0_ "processing_system7_0_DDR_DM<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DM 3))
+                (portRef (member processing_system7_0_DDR_DM 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_3_ "processing_system7_0_DDR_DQS<3>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS 0))
+                (portRef (member processing_system7_0_DDR_DQS 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_2_ "processing_system7_0_DDR_DQS<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS 1))
+                (portRef (member processing_system7_0_DDR_DQS 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_1_ "processing_system7_0_DDR_DQS<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS 2))
+                (portRef (member processing_system7_0_DDR_DQS 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_0_ "processing_system7_0_DDR_DQS<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS 3))
+                (portRef (member processing_system7_0_DDR_DQS 3) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_n_3_ "processing_system7_0_DDR_DQS_n<3>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS_n 0))
+                (portRef (member processing_system7_0_DDR_DQS_n 0) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_n_2_ "processing_system7_0_DDR_DQS_n<2>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS_n 1))
+                (portRef (member processing_system7_0_DDR_DQS_n 1) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_n_1_ "processing_system7_0_DDR_DQS_n<1>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS_n 2))
+                (portRef (member processing_system7_0_DDR_DQS_n 2) (instanceRef proc_system_i))
+              )
+            )
+            (net (rename processing_system7_0_DDR_DQS_n_0_ "processing_system7_0_DDR_DQS_n<0>")
+              (joined
+                (portRef (member processing_system7_0_DDR_DQS_n 3))
+                (portRef (member processing_system7_0_DDR_DQS_n 3) (instanceRef proc_system_i))
+              )
+            )
+            (net GPIO_SW_TRI_IO
+              (joined
+                (portRef GPIO_SW_TRI_IO)
+                (portRef GPIO_SW_TRI_IO (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_Clk
+              (joined
+                (portRef processing_system7_0_DDR_Clk)
+                (portRef processing_system7_0_DDR_Clk (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_Clk_n
+              (joined
+                (portRef processing_system7_0_DDR_Clk_n)
+                (portRef processing_system7_0_DDR_Clk_n (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_CKE
+              (joined
+                (portRef processing_system7_0_DDR_CKE)
+                (portRef processing_system7_0_DDR_CKE (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_CS_n
+              (joined
+                (portRef processing_system7_0_DDR_CS_n)
+                (portRef processing_system7_0_DDR_CS_n (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_RAS_n
+              (joined
+                (portRef processing_system7_0_DDR_RAS_n)
+                (portRef processing_system7_0_DDR_RAS_n (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_CAS_n
+              (joined
+                (portRef processing_system7_0_DDR_CAS_n)
+                (portRef processing_system7_0_DDR_CAS_n (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_WEB_pin
+              (joined
+                (portRef processing_system7_0_DDR_WEB_pin)
+                (portRef processing_system7_0_DDR_WEB_pin (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_ODT
+              (joined
+                (portRef processing_system7_0_DDR_ODT)
+                (portRef processing_system7_0_DDR_ODT (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_DRSTB
+              (joined
+                (portRef processing_system7_0_DDR_DRSTB)
+                (portRef processing_system7_0_DDR_DRSTB (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_VRN
+              (joined
+                (portRef processing_system7_0_DDR_VRN)
+                (portRef processing_system7_0_DDR_VRN (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_DDR_VRP
+              (joined
+                (portRef processing_system7_0_DDR_VRP)
+                (portRef processing_system7_0_DDR_VRP (instanceRef proc_system_i))
+              )
+            )
+            (net processing_system7_0_PS_SRSTB
+              (joined
+                (portRef processing_system7_0_PS_SRSTB)
+                (portRef I (instanceRef processing_system7_0_PS_SRSTB_IBUF_renamed_0))
+              )
+            )
+            (net processing_system7_0_PS_CLK
+              (joined
+                (portRef processing_system7_0_PS_CLK)
+                (portRef I (instanceRef processing_system7_0_PS_CLK_IBUF_renamed_1))
+              )
+            )
+            (net processing_system7_0_PS_PORB
+              (joined
+                (portRef processing_system7_0_PS_PORB)
+                (portRef I (instanceRef processing_system7_0_PS_PORB_IBUF_renamed_2))
+              )
+            )
+            (net (rename LEDs_4Bits_TRI_IO_3_ "LEDs_4Bits_TRI_IO<3>")
+              (joined
+                (portRef (member LEDs_4Bits_TRI_IO 0))
+                (portRef O (instanceRef LEDs_4Bits_TRI_IO_3_OBUF_renamed_3))
+              )
+            )
+            (net (rename LEDs_4Bits_TRI_IO_2_ "LEDs_4Bits_TRI_IO<2>")
+              (joined
+                (portRef (member LEDs_4Bits_TRI_IO 1))
+                (portRef O (instanceRef LEDs_4Bits_TRI_IO_2_OBUF_renamed_4))
+              )
+            )
+            (net (rename LEDs_4Bits_TRI_IO_1_ "LEDs_4Bits_TRI_IO<1>")
+              (joined
+                (portRef (member LEDs_4Bits_TRI_IO 2))
+                (portRef O (instanceRef LEDs_4Bits_TRI_IO_1_OBUF_renamed_5))
+              )
+            )
+            (net (rename LEDs_4Bits_TRI_IO_0_ "LEDs_4Bits_TRI_IO<0>")
+              (joined
+                (portRef (member LEDs_4Bits_TRI_IO 3))
+                (portRef O (instanceRef LEDs_4Bits_TRI_IO_0_OBUF_renamed_6))
+              )
+            )
+            (net N131
+              (joined
+              )
+            )
+            (net N132
+              (joined
+              )
+            )
+            (net N133
+              (joined
+              )
+            )
+            (net N134
+              (joined
+              )
+            )
+            (net N135
+              (joined
+              )
+            )
+            (net N136
+              (joined
+              )
+            )
+            (net N137
+              (joined
+              )
+            )
+            (net N138
+              (joined
+              )
+            )
+            (net N139
+              (joined
+              )
+            )
+            (net N140
+              (joined
+              )
+            )
+            (net N141
+              (joined
+              )
+            )
+            (net N142
+              (joined
+              )
+            )
+            (net N143
+              (joined
+              )
+            )
+            (net N144
+              (joined
+              )
+            )
+            (net N145
+              (joined
+              )
+            )
+            (net N146
+              (joined
+              )
+            )
+            (net N147
+              (joined
+              )
+            )
+            (net N148
+              (joined
+              )
+            )
+            (net N149
+              (joined
+              )
+            )
+            (net N150
+              (joined
+              )
+            )
+            (net N151
+              (joined
+              )
+            )
+            (net N152
+              (joined
+              )
+            )
+            (net N153
+              (joined
+              )
+            )
+            (net N154
+              (joined
+              )
+            )
+            (net N155
+              (joined
+              )
+            )
+            (net N156
+              (joined
+              )
+            )
+            (net N157
+              (joined
+              )
+            )
+            (net N158
+              (joined
+              )
+            )
+            (net N159
+              (joined
+              )
+            )
+            (net N160
+              (joined
+              )
+            )
+            (net N161
+              (joined
+              )
+            )
+            (net N162
+              (joined
+              )
+            )
+            (net N163
+              (joined
+              )
+            )
+            (net N164
+              (joined
+              )
+            )
+            (net N165
+              (joined
+              )
+            )
+            (net N166
+              (joined
+              )
+            )
+            (net N167
+              (joined
+              )
+            )
+            (net N168
+              (joined
+              )
+            )
+            (net N169
+              (joined
+              )
+            )
+            (net N170
+              (joined
+              )
+            )
+            (net N171
+              (joined
+              )
+            )
+            (net N172
+              (joined
+              )
+            )
+            (net N173
+              (joined
+              )
+            )
+            (net N174
+              (joined
+              )
+            )
+            (net N175
+              (joined
+              )
+            )
+            (net N176
+              (joined
+              )
+            )
+            (net N177
+              (joined
+              )
+            )
+            (net N178
+              (joined
+              )
+            )
+            (net N179
+              (joined
+              )
+            )
+            (net N180
+              (joined
+              )
+            )
+            (net N181
+              (joined
+              )
+            )
+            (net N182
+              (joined
+              )
+            )
+            (net N183
+              (joined
+              )
+            )
+            (net N184
+              (joined
+              )
+            )
+            (net N185
+              (joined
+              )
+            )
+            (net N186
+              (joined
+              )
+            )
+            (net N187
+              (joined
+              )
+            )
+            (net N188
+              (joined
+              )
+            )
+            (net N189
+              (joined
+              )
+            )
+            (net N190
+              (joined
+              )
+            )
+            (net N191
+              (joined
+              )
+            )
+            (net N192
+              (joined
+              )
+            )
+            (net N193
+              (joined
+              )
+            )
+            (net N194
+              (joined
+              )
+            )
+            (net N195
+              (joined
+              )
+            )
+            (net N196
+              (joined
+              )
+            )
+            (net N197
+              (joined
+              )
+            )
+            (net N198
+              (joined
+              )
+            )
+            (net N199
+              (joined
+              )
+            )
+            (net N200
+              (joined
+              )
+            )
+            (net N201
+              (joined
+              )
+            )
+            (net N202
+              (joined
+              )
+            )
+            (net N203
+              (joined
+              )
+            )
+            (net N204
+              (joined
+              )
+            )
+            (net N205
+              (joined
+              )
+            )
+            (net N206
+              (joined
+              )
+            )
+            (net N207
+              (joined
+              )
+            )
+            (net N208
+              (joined
+              )
+            )
+            (net N209
+              (joined
+              )
+            )
+            (net N210
+              (joined
+              )
+            )
+            (net N211
+              (joined
+              )
+            )
+            (net N212
+              (joined
+              )
+            )
+            (net N213
+              (joined
+              )
+            )
+            (net N214
+              (joined
+              )
+            )
+            (net N215
+              (joined
+              )
+            )
+            (net N216
+              (joined
+              )
+            )
+            (net N217
+              (joined
+              )
+            )
+            (net N218
+              (joined
+              )
+            )
+            (net N219
+              (joined
+              )
+            )
+            (net N220
+              (joined
+              )
+            )
+            (net N221
+              (joined
+              )
+            )
+            (net N222
+              (joined
+              )
+            )
+            (net N223
+              (joined
+              )
+            )
+            (net N224
+              (joined
+              )
+            )
+            (net N225
+              (joined
+              )
+            )
+            (net N226
+              (joined
+              )
+            )
+            (net N227
+              (joined
+              )
+            )
+            (net N228
+              (joined
+              )
+            )
+            (net N229
+              (joined
+              )
+            )
+            (net N230
+              (joined
+              )
+            )
+            (net N231
+              (joined
+              )
+            )
+            (net N232
+              (joined
+              )
+            )
+            (net N233
+              (joined
+              )
+            )
+            (net N234
+              (joined
+              )
+            )
+            (net N235
+              (joined
+              )
+            )
+            (net N236
+              (joined
+              )
+            )
+            (net N237
+              (joined
+              )
+            )
+            (net N238
+              (joined
+              )
+            )
+            (net N239
+              (joined
+              )
+            )
+            (net N240
+              (joined
+              )
+            )
+            (net N241
+              (joined
+              )
+            )
+            (net N242
+              (joined
+              )
+            )
+            (net N243
+              (joined
+              )
+            )
+            (net N244
+              (joined
+              )
+            )
+            (net N245
+              (joined
+              )
+            )
+            (net N246
+              (joined
+              )
+            )
+            (net N247
+              (joined
+              )
+            )
+            (net N248
+              (joined
+              )
+            )
+            (net N249
+              (joined
+              )
+            )
+            (net N250
+              (joined
+              )
+            )
+            (net N251
+              (joined
+              )
+            )
+            (net N252
+              (joined
+              )
+            )
+            (net N253
+              (joined
+              )
+            )
+            (net N254
+              (joined
+              )
+            )
+            (net N255
+              (joined
+              )
+            )
+            (net N256
+              (joined
+              )
+            )
+            (net N257
+              (joined
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design proc_system_stub
+    (cellRef proc_system_stub
+      (libraryRef proc_system_stub_lib)
+    )
+    (property PART (string "xc7z020clg484-1") (owner "Xilinx"))
+  )
+)
+

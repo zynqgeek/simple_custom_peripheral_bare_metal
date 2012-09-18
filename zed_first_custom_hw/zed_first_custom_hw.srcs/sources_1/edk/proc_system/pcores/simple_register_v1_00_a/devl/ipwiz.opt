@@ -1,0 +1,10 @@
+-batch 
+-create simple_register 
+-ver 1.00.a 
+-dir "C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system" 
+-lang vhdl 
+-bus axi4lite s 
+-rst 
+-reg 1 
+-xps 
+-driver 

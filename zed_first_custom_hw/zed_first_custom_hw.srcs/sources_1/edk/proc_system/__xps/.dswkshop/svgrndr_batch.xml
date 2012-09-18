@@ -1,0 +1,16 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\axi4lite_0.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\axi4lite_0.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\axi4lite_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\LEDs_4Bits.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\LEDs_4Bits.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\LEDs_4Bits.svg"/>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\GPIO_SW.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\GPIO_SW.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\GPIO_SW.svg"/>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\simple_register_0.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\simple_register_0.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\simple_register_0.svg"/>
+
+  <RENDERIMG RASNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\proc_system_blkd.jpg" SVGNAME="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\hw\imgs\proc_system_blkd.svg" TMPSVGFN="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.srcs\sources_1\edk\proc_system\__xps\.dswkshop\proc_system_blkd.svg"/>
+
+</RENDERBATCH>

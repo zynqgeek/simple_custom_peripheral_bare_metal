@@ -1,0 +1,12 @@
+#
+# pin constraints
+#
+NET GPIO_SW_TRI_IO LOC = "G19"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_4Bits_TRI_IO[0] LOC = "P17"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_4Bits_TRI_IO[1] LOC = "P18"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_4Bits_TRI_IO[2] LOC = "W10"  |  IOSTANDARD = "LVCMOS25";
+NET LEDs_4Bits_TRI_IO[3] LOC = "V7"  |  IOSTANDARD = "LVCMOS25";
+#
+# additional constraints
+#
+

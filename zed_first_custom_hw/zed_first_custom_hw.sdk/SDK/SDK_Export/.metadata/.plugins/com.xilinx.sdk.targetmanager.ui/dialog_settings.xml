@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Xilinx\Projects\zed_first_custom_hw\zed_first_custom_hw.sdk\SDK\SDK_Export\proc_system_hw_platform\system.bit" key="proc_system_hw_platform-bitFile"/>
+	<item value="" key="proc_system_hw_platform-bmmFile"/>
+</section>
